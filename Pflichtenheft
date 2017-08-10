@@ -2,6 +2,7 @@ Projekt LED Deckenlampe
 Hardware:
 
 -dimmer Potentiometer mit langer Leitung möglichst unsichtbar gut erreichbar
+// <- wie in C/C++ kann hier ein Kommentar stehen
 
 -LED Lampe angesteuert über KSQ Modul
 
