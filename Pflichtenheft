@@ -1,0 +1,23 @@
+Projekt LED Deckenlampe
+Hardware:
+
+-dimmer Potentiometer mit langer Leitung möglichst unsichtbar gut erreichbar
+
+-LED Lampe angesteuert über KSQ Modul
+
+Software:
+
+E
+-Pott -> AD Wandlung
+
+V
+-AD Wandlung Berechnung einer sinnvollen Dimm- bzw. Helligkeistkurve
+-PWM Berechnung und Umsetzung dieser Kurve
+-8 bit Timer hardware pwm 256 Stufen möglich
+
+A
+-KSQ Modul über PWM  angesteuert vom µC
+
+Die Deckenlampe soll über einen Dimmer verfügen.
+Dieser Dimmer wird über ein AD gewandelten Potentiometer gesteuert.
+Die AD Wandlung soll so umgerechnet werden, dass sich eine sinnvolle Helligkeitskurve ergibt, welche deutlich wahrnehmbar ist.
